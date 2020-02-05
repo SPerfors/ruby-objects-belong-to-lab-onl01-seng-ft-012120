@@ -10,6 +10,6 @@ class Artist
     @songs << song unless @songs.include?(song)
     song.artist = self if song.artist == nil 
   end
- artist = Artist.new 
+ 
 end
 
